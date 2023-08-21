@@ -1,6 +1,5 @@
-package com.parnia.springsecurity;
+package com.parnia.springsecurity.user;
 
-import com.parnia.springsecurity.entity.User;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 import java.util.Optional;

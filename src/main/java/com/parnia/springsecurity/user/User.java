@@ -1,4 +1,4 @@
-package com.parnia.springsecurity.entity;
+package com.parnia.springsecurity.user;
 
 import jakarta.persistence.*;
 import lombok.*;

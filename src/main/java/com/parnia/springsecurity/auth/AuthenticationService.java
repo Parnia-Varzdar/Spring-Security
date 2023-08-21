@@ -1,15 +1,15 @@
 package com.parnia.springsecurity.auth;
 
+import com.parnia.springsecurity.user.UserRepository;
 import com.parnia.springsecurity.configuration.JwtService;
-import com.parnia.springsecurity.UserRepository;
-import com.parnia.springsecurity.entity.User;
+import com.parnia.springsecurity.user.User;
 import lombok.RequiredArgsConstructor;
 import org.springframework.security.authentication.AuthenticationManager;
 import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Service;
 
-import static com.parnia.springsecurity.entity.Role.USER;
+import static com.parnia.springsecurity.user.Role.USER;
 
 @Service
 @RequiredArgsConstructor
