@@ -14,6 +14,7 @@ import static jakarta.persistence.GenerationType.IDENTITY;
 
 @Data
 @Entity
+@Table
 @Builder
 @NoArgsConstructor
 @AllArgsConstructor
